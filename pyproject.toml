@@ -1,15 +1,18 @@
 [tool.poetry]
 name = "fxpmath"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "A python library for fractional fixed-point (base 2) arithmetic and binary manipulation with Numpy compatibility."
+authors = ["francof2a <empty@empty.com>"]
+license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/francof2a/fxpmath"
+keywords = ["fixed point", "fractional", "math", "fxpmath", "arithmetic", "FPGA", "DSP"]
+packages = [{include = "fxpmath"}]
 
 [tool.poetry.dependencies]
 python = "^3.10,<3.11"
 numpy = "^2.2.4"
 scipy = "^1.15.2"
-
 
 [build-system]
 requires = ["poetry-core"]
