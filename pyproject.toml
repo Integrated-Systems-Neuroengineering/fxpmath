@@ -10,7 +10,7 @@ keywords = ["fixed point", "fractional", "math", "fxpmath", "arithmetic", "FPGA"
 packages = [{include = "fxpmath"}]
 
 [tool.poetry.dependencies]
-python = "^3.10,<3.11"
+python = "^3.10,<3.12"
 numpy = "^2.2.4"
 scipy = "^1.15.2"
 
