@@ -491,6 +491,7 @@ description = "A lil' TOML parser"
 optional = false
 python-versions = ">=3.8"
 groups = ["dev"]
+markers = "python_version < \"3.11\""
 files = [
     {file = "tomli-2.4.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:b5ef256a3fd497d4973c11bf142e9ed78b150d36f5773f1ca6088c230ffc5867"},
     {file = "tomli-2.4.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:5572e41282d5268eb09a697c89a7bee84fae66511f87533a6f88bd2f7b652da9"},
@@ -548,6 +549,7 @@ description = "Backported and Experimental Type Hints for Python 3.9+"
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
+markers = "python_version < \"3.11\""
 files = [
     {file = "typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"},
     {file = "typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"},
@@ -573,5 +575,5 @@ typing-extensions = {version = ">=4.13.2", markers = "python_version < \"3.11\""
 
 [metadata]
 lock-version = "2.1"
-python-versions = "^3.10,<3.11"
-content-hash = "990484715ccd926892e2a15925e497b3f28eeac9a9d797bfb4f981a32cce8331"
+python-versions = "^3.10,<3.12"
+content-hash = "43c97d88ecf9b4e38e62d0fcb71a70cf1aa1044de3714d67247366e68c0f6476"
