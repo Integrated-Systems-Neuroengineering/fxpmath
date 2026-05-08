@@ -31,6 +31,7 @@
             (p2n.mkPoetryEnv {
               projectDir = ./.;
               python = pkgs.python311;
+              preferWheels = true;
             })
           ];
         };
